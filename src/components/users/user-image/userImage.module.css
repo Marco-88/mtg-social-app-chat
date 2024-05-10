@@ -1,0 +1,5 @@
+.avatar {
+    object-fit: contain;
+    border-radius: 50%;
+    border: 1px solid var(--primary-light);
+}

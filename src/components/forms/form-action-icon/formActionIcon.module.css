@@ -1,0 +1,16 @@
+.container {
+    width: min-content;
+    gap: 0;
+}
+
+.iconButton {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: min-content;
+    padding: 0;
+}
+
+.iconButton:hover {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}

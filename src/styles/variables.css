@@ -1,0 +1,16 @@
+:root {
+    /**** Colors ****/
+    --primary: #0e0e0e;
+    --primary-light: #222;
+
+    --secondary: #a79d17;
+    --secondary-light: #b3ad23;
+    --secondary-lighter: #c9bf27;
+
+    --success: #00dd00;
+    --error: #dd0000;
+    --info: #dd00dd;
+
+    /**** Sizes ****/
+    --navbar-height: 64px;
+}

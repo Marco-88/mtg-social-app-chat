@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container p {
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    height: 420px;
+}
+
+.lilianaImage {
+    object-fit: contain;
+}

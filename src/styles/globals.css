@@ -1,0 +1,65 @@
+@import "variables.css";
+@import "forms.css";
+
+body {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.secondary {
+    color: var(--secondary);
+}
+
+.secondary:hover {
+    color: var(--secondary-lighter)
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.primary:hover {
+    color: var(--primary-light)
+}
+
+main {
+    margin: 0 auto;
+    padding-top: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 70%;
+}
+
+@media screen and (max-width: 1280px) {
+    main {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+}
+

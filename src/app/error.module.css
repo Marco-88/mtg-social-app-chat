@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.statusCode {
+    background-color: var(--primary-light);
+    color: var(--error);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+.info {
+    background-color: var(--primary);
+    color: var(--secondary-light);
+    font-size: 17px;
+}
+
+.details {
+    background-color: var(--secondary);
+    color: var(--primary-light);
+    font-size: 13px;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}

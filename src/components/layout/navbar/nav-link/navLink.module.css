@@ -1,0 +1,32 @@
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary);
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    min-height: var(--navbar-height);
+}
+
+.link:hover {
+    color: var(--secondary-light);
+    font-weight: bold;
+}
+
+.active {
+    background-color: var(--secondary);
+    color: var(--primary);
+    font-weight: bold;
+    cursor: default;
+}
+
+.active:hover {
+    color: var(--primary);
+}
+
+@media screen and (max-width: 1280px) {
+    .link {
+        width: 75px;
+    }
+}

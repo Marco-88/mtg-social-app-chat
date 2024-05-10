@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    width: 100%;
+}
+
+.question, .link {
+    color: var(--secondary);
+    font-size: 18px;
+}
+
+.link a {
+    color: var(--secondary-lighter);
+    font-weight: bold;
+    padding-left: 0.2rem;
+}
+
+.link:hover a {
+    color: var(--secondary-light);
+    cursor: pointer;
+    text-decoration: underline;
+}

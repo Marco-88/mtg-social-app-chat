@@ -1,0 +1,77 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-state-info {
+    color: var(--error)
+}
+
+.input-row-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.input-row-wrapper label {
+    flex: 1;
+}
+
+.input-row-wrapper input, .input-row-wrapper textarea {
+    flex: 2;
+}
+
+input,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active {
+    font-size: 14px;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: var(--secondary);
+    color: var(--primary);
+    -webkit-text-fill-color: var(--primary);
+    -webkit-box-shadow: 0 0 0 40rem var(--secondary) inset;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--primary-light);
+    opacity: 0.8;
+}
+
+button {
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid var(--secondary);
+    outline: none;
+    background-color: var(--primary);
+    color: var(--secondary);
+    width: 100%;
+}
+
+button:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+button:active {
+    background-color: var(--secondary-light);
+    color: var(--primary-light);
+    font-weight: bold;
+}

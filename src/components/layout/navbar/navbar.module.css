@@ -1,0 +1,13 @@
+nav.container {
+    background-color: var(--primary-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    height: var(--navbar-height);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}

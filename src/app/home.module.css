@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    gap: 3rem;
+}
+
+.textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.textContainer h1 {
+    font-size: 72px;
+}
+
+.textContainer p {
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.button {
+    padding: 1rem;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+.button:hover {
+    background-color: var(--primary-light);
+    color: var(--secondary-lighter);
+    border: 1px solid var(--secondary-lighter);
+}
+
+.button:first-child {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.button:first-child:hover {
+    background-color: var(--secondary-light);
+    color: var(--primary-light);
+}
+
+.imageContainer {
+    width: 100%;
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.beyondImageWrapper {
+    width: 100%;
+    /*position: relative;*/
+    filter: contrast(0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+}
+
+.beyondImage {
+    object-fit: contain;
+}
+
+.eternityImage {
+    object-fit: contain;
+    width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    /*.eternityImage {*/
+    /*    width: 100%;*/
+    /*}*/
+
+    /*.beyondImageWrapper, .imageContainer {*/
+    /*    position: static;*/
+    /*}*/
+
+    /*.eternityImage {*/
+    /*    object-fit: none;*/
+    /*}*/
+}

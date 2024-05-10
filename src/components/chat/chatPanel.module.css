@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.chatHeader {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.chatMessageList {
+    background-color: var(--primary);
+}
+
+.chatMessageList li .messageDate {
+    color: var(--secondary-lighter);
+}
+
+.chatMessageList li.messageOut .messageContent {
+    background-color: var(--secondary-light);
+    color: var(--primary-light);
+}
+
+.chatMessageList li.messageIn .messageContent {
+    background-color: var(--primary-light);
+    color: var(--secondary-lighter);
+}
+
+.chatMessageList li .messageContent {
+    background-color: var(--primary-light);
+    color: var(--secondary-light);
+}
+
+.chatInputContainer {
+    background-color: var(--secondary);
+    color: var(--primary-light);
+}
